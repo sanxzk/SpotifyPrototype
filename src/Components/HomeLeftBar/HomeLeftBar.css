@@ -27,33 +27,22 @@
     align-items: center;
     height: auto;
     width: 100%;
-    padding: 2rem;
-    margin-top: 0.75rem;
+    padding: 0.5rem;
+    /* margin-top: 0.75rem; */
   }
 
   .home-logo {
     width: 7rem;
-    height: 7rem;
+    height: 5rem;
+    object-fit: contain;
   }
 
   .home-profile {
-    width: 6rem;
+    width: 5rem;
     height: 2rem;
     align-self: center;
+    object-fit: contain;
   }
 }
 
-/* Media Query for Small Mobile Devices */
-@media screen and (max-width: 480px) {
-  .home-leftbar-container {
-    padding: 0.5rem;
-  }
-
-  .home-logo {
-    height: 1.5rem;
-  }
-
-  .home-profile {
-    width: 1.2rem;
-  }
-}
+ 
