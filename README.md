@@ -1,70 +1,57 @@
-# Getting Started with Create React App
+ Here's the refactored README with the images formatted according to the given structure:
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# SPOTIFY PROTOTYPE
+### A MUSIC Application
 
-## Available Scripts
+An application to play music.
 
-In the project directory, you can run:
+## Demo Link
 
-### `npm start`
+Visit the [SpotifyPrototype Demo](https://spotify-prototype.vercel.app/) to see the application in action.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Basic Outline
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- [x] Search for various music.
+- [x] play previous music
+- [x] play forward
+- [x]  can pause
 
-### `npm test`
+## Technology Used
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- [x] React
+- [x] Redux Toolkit and React Redux (for state management)
+- [x] CSS
 
-### `npm run build`
+## Steps to Launch the Code and Demo
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. Clone the repository.
+2. Run `npm install` to install all dependencies.
+3. Run `npm start` to start the application.
+4. Open your browser and go to `http://localhost:3000/` to view the application.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Screenshots
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Mobile View
 
-### `npm run eject`
+| Mobile View 1 | Mobile View 2 | Mobile View 3 |
+| :------------:| :------------:| :------------:| 
+| ![Mobile View 1](./src/assets/screenshots/ph_1.jpg) | ![Mobile View 2](./src/assets/screenshots/ph_2.jpg) | ![Mobile View 3](./src/assets/screenshots/ph_3.jpg) | 
+---
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Tablet View
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+| Tablet View 1 | Tablet View 2 | Tablet View 3 |
+| :------------:| :------------:| :------------:|
+| ![Tablet View 1](./src/assets/screenshots/tb_1.png) | ![Tablet View 2](./src/assets/screenshots/tb_2.png) | ![Tablet View 3](./src/assets/screenshots/tb_3.png) |
+---
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Desktop View
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+| Desktop View 1 | Desktop View 2 | Desktop View 3 |
+| :-------------:| :-------------:| :-------------:| 
+| ![Desktop View 1](./src/assets/screenshots/lp_1.png) | ![Desktop View 2](./src/assets/screenshots/lp_2.png) | ![Desktop View 3](./src/assets/screenshots/lp_3.png) |
+| Desktop View 4 | Desktop View 5 | Desktop View 6 |
+| ![Desktop View 4](./src/assets/screenshots/lp_4.png) |
+---
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This is an overview of SpotifyPrototype - 'A music Exploration Application', detailing its features, technologies used, how to launch the application, and screenshots showcasing its mobile, tablet, and desktop views.
